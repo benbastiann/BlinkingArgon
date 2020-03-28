@@ -20,9 +20,11 @@ void dash()
 
 void loop()
 {	
-	dash(); dot(); dot(); dot();  //b
+	dash()                //t
 	delay(2000);
-	dot();		      //e
+	dot(); dash(); dot(); //r
+	delay(2000);
+	dot(); dash();        //a
 	delay(2000);
 	dash(); dot();	      //n
 }	
